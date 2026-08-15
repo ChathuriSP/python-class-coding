@@ -1,0 +1,20 @@
+This ER diagram is related to a course Registration..
+there are five entities.
+Entity - Student, Enrollment, Lecture, Lecturer, and Subjects
+
+the subject entity attributes are F_name, L_name, B_date, No
+The Enrillment entity related attributes are Subject_num, Date_of_enrolment, Course_name, CC#
+The Lecture entity related attributes are CC#, Subject, Time, Date, Lecture_name
+The Subject entity related attributes are Subject_code, Subject_unit, Subject_udsc
+The Lecture entity related arrtributes are Lecture_id, L_lastname, L_firstname, L_email, L_address
+
+There are six relationships.
+one-to-one relation between Student and Entroll Entities.
+one-to-many relation between Lecture and Student.
+one-to-many relation between Lecture and Entrollment.
+many-to-many relation between Lecturer and Subjects.
+many-to-many relation between Lecture and Lecturer.
+many-to-many relation between Subjects and Lecturer.
+
+
+
